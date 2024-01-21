@@ -164,7 +164,7 @@ if(NOT BUILD_SHARED_LIBS)
 endif()
 
 eprosima_find_package(fastcdr REQUIRED)
-eprosima_find_thirdparty(Asio asio VERSION 1.10.8)
+eprosima_find_thirdparty(Asio asio VERSION 1.18.1-1)
 eprosima_find_thirdparty(TinyXML2 tinyxml2)
 
 find_package(foonathan_memory REQUIRED)
